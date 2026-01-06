@@ -19,6 +19,13 @@ img{
     text-align: center;
 }
 
+/*見出し*/
+.page-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
 /*ヘッダー*/
 .page-header{
     padding-top: .5rem;
@@ -38,4 +45,18 @@ img{
 }
 .main-nav a:hover{
     color: blue;
+}
+.about{
+    max-width: 730px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 4rem;
+    border: 2px solid;
+}
+.about p{
+    margin-bottom: .5rem;
+}
+.m-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
