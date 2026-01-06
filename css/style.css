@@ -1,0 +1,41 @@
+@charset "UTF-8" ;
+
+/*共通部分*/
+html{
+    font-size: 100%;
+}
+body{
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*レイアウト*/
+.align-center{
+    text-align: center;
+}
+
+/*ヘッダー*/
+.page-header{
+    padding-top: .5rem;
+}
+.logo{
+    width: 100;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav a{
+    color: black;
+}
+.main-nav a:hover{
+    color: blue;
+}
