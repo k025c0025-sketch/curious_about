@@ -5,6 +5,9 @@
         <title>学校では教わらないこと</title>
         <meta name="description"content="人に聞いたり調べてもあまり分からないことを解説！">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--ファビコン-->
+        <link rel="icon" type="img/png" href="images/fabikon.png">
     <!--リセットCSS-->
         <link rel="stylesheet" href="https:/unpkg.com/ress/dist/ress.min.css">
 
@@ -19,7 +22,7 @@
                 </h1>
                 <nav>
                     <ul class="main-nav font-english">
-                        <li><a href="scholl.html">学校系</a></li>
+                        <li><a href="school.html">学校</a></li>
                         <li><a href="index.html">ホーム</a></li>
                         <li><a href="work.html">バイト</a></li>
                     </ul>
@@ -36,12 +39,24 @@
         <section class="main">
             <h2 class="m-title">一般編</h2>
             <p>
-                Q1選挙って行かないといけないの？<br>A.行かなくても特に罰則はないが行けるなら行くべき<br>
-                Q2警察に補導されるとどうなるの？<br>A.基本的には口頭注意で終わり前科もつかない。未成年の場合は保護者へ連絡される。（例：深夜徘徊、喫煙・飲酒、家出など）
-                <br>　特に家出、深夜徘徊の場合は保護者が迎えに来るまで警察署で待機することがある
-                <br>さらに少年補導票というものが作成され、前科とは別の記録がつく。これは20歳まで保管され、20歳になるまでに重い罪を起こすとこれを参考に裁判が進む。20歳になると破棄される
+                Q1 選挙って行かないといけないの？<br>A. 行かなくても特に罰則はないが行けるなら行くべき<br>
+                <br>Q2 右翼と左翼の違いって何？<br>A. 右翼が政治思想において保守的で伝統的な価値観を重んじ、国粋主義や国家の強化などを主張する人々や集団。
+                <br>左翼が平等、社会正義、進歩を重視し、社会改革や既成概念の打破を求める集団。<br>
 
+                <br>Q3 警察に補導されるとどうなるの？<br>A. 基本的には口頭注意で終わり前科もつかない。未成年の場合は保護者へ連絡される。（例：深夜徘徊、喫煙・飲酒、家出など）
+                <br>　特に家出、深夜徘徊の場合は保護者が迎えに来るまで警察署で待機することがある
+                <br>さらに少年補導票という、前科とは別の記録が作成される。これは20歳まで保管され、20歳になるまでに重い罪を起こすとこれを参考に裁判が進む。20歳になると破棄される
             </p>
         </section>
     </body>
+    <footer>
+        <div class="copyright">&copy;CORIOUS_ABOUT<br>アクセス時刻：<span id="AccessTime"></span></div>
+    </footer>
+
+    <script>
+    // 読み込み時に一度だけ実行
+    const now = new Date();
+    document.getElementById("AccessTime").innerText = now.toLocaleTimeString();
+    </script>
+
 </html>

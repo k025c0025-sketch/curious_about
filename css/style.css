@@ -60,3 +60,24 @@ img{
     text-align: center;
     margin-bottom: 2rem;
 }
+/*フッター*/
+.copyright{
+    background-color: black;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: white;
+}
+
+
+/*デスクトップ版*/
+@media (min-whidth:800px){
+    /*見出し*/
+    .page-title{
+        font-size: 5rem;
+    }
+    .heading-large{
+        font-size: 4rem;
+    }
+    
+}

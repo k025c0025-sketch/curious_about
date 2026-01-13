@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>学校では教わらないこと一般編</title>
+        <meta name="description"content="人に聞いたり調べてもあまり分からないことを解説！">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--ファビコン-->
+        <link rel="icon" type="img/png" href="images/fabikon.png">
+    <!--リセットCSS-->
+        <link rel="stylesheet" href="https:/unpkg.com/ress/dist/ress.min.css">
+
+    <!--オリジナルCSS-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="cover cover-home">
+            <header class="page-header">
+                <h1 class="align-center">
+                    <a href="index.html"><img class="logo" src="images/logo.png" alt="HOME"></a>
+                </h1>
+                <nav>
+                    <ul class="main-nav font-english">
+                        <li><a href="school.html">学校</a></li>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="work.html">バイト</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <section class="about">
+            <h3 class="heading-large">このサイトの説明</h3>
+            <p>このサイトでは、筆者が学生時代に知りたかったこと・気になっていたことを自ら調べまとめています。
+            </p>
+        </section>
+
+        <section class="main">
+            <h2 class="m-title">学校</h2>
+            <p>
+                Q1 単位を落とすとどうなるの？
+                <br>A. 教科によるが再評価課題などが出され、それをクリアすると単位がもらえることがほとんど。
+                <br>テスト中のカンニング行為などで単位を落とした場合などは再評価課題などがなく、そのまま単位を落とす場合もある。（平常点をしっかり取っていれば単位を落とさない可能性もある）
+                <br>高校1、2年生の場合は進級時の選択科目を多くとることで、足りない単位を補うことができる。3年時に落とすと、担当の先生に泣きつくしかなくなる。
+                <br>単位を落とすと取得単位数が足りなくなり、進級・卒業に影響がでる。大学では翌年以降に再履修（取り直し）をすることでリカバリーが可能。
+                <br>専門学校の場合は基本的に翌年に再履修してリカバリーすることは不可能なので、再評価課題をクリア、もしくは科目の合格条件をクリアするしかなく、それすらもできなかった場合は留年となる。<br>
+
+                <br>Q2 無断欠席しても平気なの？<br>A. 基本的に親に連絡がいくなどの厄介なことにはならない。
+                <br>仲の良い友達やクラスメイトに連絡しておいて、担任の先生に伝えておいてもらえば基本的に大丈夫だが、成績表の欠席欄には記録されるのでそれをどう誤魔化すかが重要<br>
+
+                <br>Q3 先生への態度によって成績が変わることはあるの？
+                <br>A. どんな態度でも変わることはない。しかし先生への態度と授業態度は違うので、授業はまじめに受けなければそこで点数を落とされる場合はある。
+                <br>テストの点数もよく、授業もまじめに受けてているのに成績が悪かった場合は先生に成績が低い理由をしっかり聞いた方がいい。<br>
+
+                <br>Q4 部活とバイトのどっちをした方がいいの？
+                <br>A. どっちもやるべき。
+                <br>毎日活動する部活はほとんどないし、よっぽどの強豪の部活に入らない限り両立できる余裕は十分にある。
+                <br>部活一本でもバイト一本でもどちらも将来につながるのでどちらかのみをやるのも良いが、筆者の経験だとどちらもやった方が学生生活が楽しくなる。<br>
+                
+            </p>
+        </section>
+    </body>
+    <footer>
+        <div class="copyright">&copy;CORIOUS_ABOUT<br>アクセス時刻：<span id="AccessTime"></span></div>
+    </footer>
+
+    <script>
+    // 読み込み時に一度だけ実行
+    const now = new Date();
+    document.getElementById("AccessTime").innerText = now.toLocaleTimeString();
+    </script>
+
+</html>
